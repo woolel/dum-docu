@@ -9,7 +9,7 @@ const config = {
   title: '이덤',
   tagline: '이웃들과 함께 하는 덤바우',
   url: 'http://jinbasil.com',
-  baseUrl: '/website/',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'http://jinbasil.com/website/imgon/favicon.ico',
