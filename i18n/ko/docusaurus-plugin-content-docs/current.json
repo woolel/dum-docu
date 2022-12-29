@@ -1,0 +1,18 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.\"농생태학,지속가능한...\"(책)": {
+    "message": "\"농생태학,지속가능한...\"(책)",
+    "description": "The label for category \"농생태학,지속가능한...\"(책) in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.농생태의 이해": {
+    "message": "농생태의 이해",
+    "description": "The label for category 농생태의 이해 in sidebar tutorialSidebar"
+  },
+  "sidebar.dumbau.category.토마토": {
+    "message": "토마토",
+    "description": "The label for category 토마토 in sidebar dumbau"
+  }
+}

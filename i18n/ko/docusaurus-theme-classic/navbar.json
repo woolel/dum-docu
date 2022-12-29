@@ -1,0 +1,22 @@
+{
+  "title": {
+    "message": "이웃들과 함께 하는 덤바우",
+    "description": "The title in the navbar"
+  },
+  "item.label.덤바우": {
+    "message": "덤바우",
+    "description": "Navbar item with label 덤바우"
+  },
+  "item.label.이덤장터": {
+    "message": "이덤장터",
+    "description": "Navbar item with label 이덤장터"
+  },
+  "item.label.농사[농법]": {
+    "message": "농사[농법]",
+    "description": "Navbar item with label 농사[농법]"
+  },
+  "item.label.블로그": {
+    "message": "블로그",
+    "description": "Navbar item with label 블로그"
+  }
+}

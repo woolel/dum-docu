@@ -1,0 +1,537 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poor+Story&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cute+Font&family=Nanum+Pen+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gamja+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
+
+/*korean font*/
+
+.ps {
+	font-family: 'Poor Story';
+}
+
+body {
+	font-family: 'IBM Plex Sans KR';
+}
+
+:root {
+  --ifm-color-primary: #3578e5;
+  --ifm-color-primary-dark: rgb(33, 175, 144);
+  --ifm-color-primary-darker: rgb(31, 165, 136);
+  --ifm-color-primary-darkest: rgb(26, 136, 112);
+  --ifm-color-primary-light: rgb(70, 203, 174);
+  --ifm-color-primary-lighter: rgb(102, 212, 189);
+  --ifm-color-primary-lightest: rgb(146, 224, 208);
+  --ifm-code-font-size: 85%;
+  --ifm-font-family-base: 'IBM Plex Sans KR';
+}
+
+.docusaurus-highlight-code-line {
+  background-color: rgba(0, 0, 0, 0.1);
+  display: block;
+  margin: 0 calc(-1 * var(--ifm-pre-padding));
+  padding: 0 var(--ifm-pre-padding);
+}
+
+html[data-theme='dark'] .docusaurus-highlight-code-line {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+/*수정*/
+
+.tube-b{
+	
+	padding-bottom: 150.25%;
+	
+}
+
+.tabs-container {
+	
+--tw-bg-opacity: 1;
+background-color: rgba(239, 246, 255, var(--tw-bg-opacity))!important;
+padding:10px;
+--tw-bg-opacity: 1;
+color: rgba(30, 58, 138, var(--tw-bg-opacity));
+}
+
+@media screen and (max-width: 996px) {
+  :root {
+    --ifm-font-size-base: 17px;
+	
+  }
+  article header h1 {
+    font-size: 1.1rem !important;
+--tw-text-opacity: 1;
+color: rgba(107, 114, 128, var(--tw-text-opacity));  }
+  h2 {
+    font-size: 1.1rem !important;
+--tw-text-opacity: 1;
+color: rgba(107, 114, 128, var(--tw-text-opacity));  }
+  h3 {
+    font-size: 1.0rem !important;
+--tw-text-opacity: 1;
+color: rgba(107, 114, 128, var(--tw-text-opacity));  }
+  .hero .hero__title {
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (min-width: 997px) {
+  :root {
+    --ifm-font-size-base: 17px;
+  }
+  article header h1 {
+    font-size: 1.1rem !important;
+--tw-text-opacity: 1;
+color: rgba(107, 114, 128, var(--tw-text-opacity));  }
+  h2 {
+    font-size: 1.1rem !important;
+--tw-text-opacity: 1;
+color: rgba(107, 114, 128, var(--tw-text-opacity));  }
+  h3 {
+    font-size: 1.0rem !important;
+--tw-text-opacity: 1;
+color: rgba(107, 114, 128, var(--tw-text-opacity));  }
+}
+
+.leading-00 {
+
+line-height: 1 !important;
+
+}
+
+.tb {
+
+border:solid 1px black;
+
+}
+.tb-top-0 {
+
+border-top:solid 0px black;
+;
+
+}
+
+.ps {
+
+font-family:'Poor Story';
+
+}
+
+.ibmps {
+
+font-family:'IBM Plex Sans KR';
+
+
+}
+
+.gra-b-g {
+
+border-image: linear-gradient(-60deg, #FFFFFF, rgb(6, 95, 70)) 10;
+
+}
+
+.gra-b-r {
+
+border-image: linear-gradient(45deg, #FFFFFF, rgb(153, 27, 27)) 10;
+
+}
+
+h2.mb-index {
+	
+	margin-bottom: 0px !important;
+	
+}
+
+/*이덤장터*/
+
+    .juice {
+        background-image: url('http://jinbasil.com/img/to-1-1.jpg');
+    }
+
+    .juice2 {
+		min-height: 300px; 
+        background-image: url('http://jinbasil.com/img/oni-01.jpg');
+    }
+ 
+    .juice3 {
+      z-index: 10;
+      position: relative;
+    }
+ 
+    .juice3::after {
+      content: '';
+      position: absolute;
+      opacity: .8;
+      z-index: -999;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      background-image: url('http://jinbasil.com/img/gray-bg.png');
+    }
+
+    .text-primary {
+        color: #f9b529;
+    }
+
+    .text-primary-lite {
+        color: #fac251;
+    }
+
+    .text-secondary {
+        color: #294356;
+    }
+
+    .text-secondary-lite {
+        color: #d5dee5;
+    }
+
+    .bg-primary {
+        background-color: #f9b529;
+    }
+
+    .bg-primary-lite {
+        background-color: #fac251;
+    }
+
+    .bg-secondary {
+        background-color: #294356;
+    }
+
+    .bg-secondary-lite {
+        background-color: #d5dee5;
+    }
+
+    .product {
+      background-image: url('https://i.ibb.co/L00dH6V/2021-11-07-14h07-51.png');
+    }
+    .product2 {
+      background-image: url('https://i.ibb.co/1fZMKPh/2021-11-07-14h08-07.png');
+    }
+    .product3 {
+      background-image: url('https://i.ibb.co/f9tpvV3/2021-11-07-14h08-32.png');
+    }
+    .product4 {
+      background-image: url('https://i.ibb.co/42BsKQ2/2021-11-07-14h08-17.png');
+    }
+	
+	/*백그라운드 이미지*/
+	
+	.mbg-1 {
+		
+		background-image: url('https://tailwindcss.com/img/card-left.jpg');
+		
+}
+
+	.mbg-2 {
+		
+		background-image:url(https://media.gettyimages.com/photos/cristiano-ronaldo-of-juventus-fc-looks-dejected-during-the-uefa-of-picture-id1227967060?k=6&m=1227967060&s=612x612&w=0&h=cMSMlRyI6YAzcE_C2KgHGRLeVojHYoUhIvhwPBYv8f4=);
+		
+}
+	.mbg-3 {
+		
+		background-image:url(https://media.gettyimages.com/photos/lionel-messi-and-marcandre-ter-stegen-of-fc-barcelona-waits-in-the-picture-id1266763488?k=6&m=1266763488&s=612x612&w=0&h=8vxz9HfQVfrff5N7d1lBVxtLamRQGK3J3lyHkUuuIiw=);
+		
+}
+	.mbg-4 {
+		
+		background-image:url(https://media.gettyimages.com/photos/cristiano-ronaldo-of-juventus-fc-looks-dejected-during-the-uefa-of-picture-id1227967060?k=6&m=1227967060&s=612x612&w=0&h=cMSMlRyI6YAzcE_C2KgHGRLeVojHYoUhIvhwPBYv8f4=);
+		
+}
+	.mbg-5 {
+		
+		background-image:url(https://media.gettyimages.com/photos/cristiano-ronaldo-of-juventus-fc-looks-dejected-during-the-uefa-of-picture-id1227967060?k=6&m=1227967060&s=612x612&w=0&h=cMSMlRyI6YAzcE_C2KgHGRLeVojHYoUhIvhwPBYv8f4=);
+		
+}
+	.mbg-6 {
+		
+		background-image:url(https://media.gettyimages.com/photos/cristiano-ronaldo-of-juventus-fc-looks-dejected-during-the-uefa-of-picture-id1227967060?k=6&m=1227967060&s=612x612&w=0&h=cMSMlRyI6YAzcE_C2KgHGRLeVojHYoUhIvhwPBYv8f4=);
+		
+}
+
+.mbg1-1 {
+min-height: 400px; background-image:url('http://jinbasil.com/img/to-01.jpg');
+}
+.mbg1-2 {
+background-image:url(https://media.gettyimages.com/photos/cristiano-ronaldo-of-juventus-reacts-during-the-uefa-champions-league-picture-id1264546157?k=6&m=1264546157&s=612x612&w=0&h=LlY_gF4hYuRI68Btvq0tK0FcZDNIsJyEyaLaZV2Hi-M=);
+}
+.mbg1-3 {
+background-image:url(https://media.gettyimages.com/photos/at-the-the-network-tolo-televised-debate-dr-abdullah-abdullah-with-picture-id1179614034?k=6&m=1179614034&s=612x612&w=0&h=WwIX3RMsOQEn5DovD9J3e859CZTdxbHHD3HRyrgU3A8=);
+}
+.mbg1-4 {
+background-image:url(https://media.gettyimages.com/photos/at-the-the-network-tolo-televised-debate-dr-abdullah-abdullah-with-picture-id1179614034?k=6&m=1179614034&s=612x612&w=0&h=WwIX3RMsOQEn5DovD9J3e859CZTdxbHHD3HRyrgU3A8=);
+}
+.mbg1-5 {
+background-image:url(https://media.gettyimages.com/photos/at-the-the-network-tolo-televised-debate-dr-abdullah-abdullah-with-picture-id1179614034?k=6&m=1179614034&s=612x612&w=0&h=WwIX3RMsOQEn5DovD9J3e859CZTdxbHHD3HRyrgU3A8=);
+}
+.mbg1-6 {
+background-image:url(https://media.gettyimages.com/photos/at-the-the-network-tolo-televised-debate-dr-abdullah-abdullah-with-picture-id1179614034?k=6&m=1179614034&s=612x612&w=0&h=WwIX3RMsOQEn5DovD9J3e859CZTdxbHHD3HRyrgU3A8=);
+}
+
+.svg-background {
+enable-background:new 0 0 455.005 455.005;
+}
+
+
+.highlight1 {
+  text-decoration: underline;
+  text-underline-offset: -.65em;
+  text-decoration-thickness: .6em;
+  text-decoration-color: rgba(255, 255, 0, 0.3);
+  text-decoration-skip-ink: none;
+}
+
+.bgmarket {
+	
+	min-height: 400px; 
+	background-image:url(https://images.pexels.com/photos/53487/james-stewart-man-person-actor-53487.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+	
+}
+
+/*타일윈드3*/
+
+.bg-stone-100 {
+	background-color: rgb(245 245 244);
+}
+
+.bg-orange-200 {
+	background-color: rgb(254 215 170);
+}
+
+.bg-amber-700 {
+	background-color: rgb(180 83 9);
+}
+.bg-amber-600 {
+	background-color: rgb(217 119 6);
+}
+/*링크 중지*/
+.disabled-link{
+        cursor: not-allowed !important;
+        pointer-events: none;        
+        text-decoration: none;
+    }
+	
+/* background-image */	
+.toma-main {
+	background-image: url(https://www.hyperui.dev/photos/beach-1.jpeg);	
+}
+
+.chil-main {
+background-image: url(https://www.hyperui.dev/photos/beach-1.jpeg);
+}
+
+/* market-5 page */
+  .no-spinners {
+    -moz-appearance: textfield;
+  }
+
+  .no-spinners::-webkit-outer-spin-button,
+  .no-spinners::-webkit-inner-spin-button {
+    margin: 0;
+    -webkit-appearance: none;
+  }
+  
+  /*iframe height*/
+  
+ .frame{
+height: 120vh;
+}
+
+.bg-po {
+	
+	background-position: 50%;
+}
+
+/*토마토 갤러리*/
+
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/*갤러리*/
+
+.titleg {
+  max-width: 1440px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 4rem;
+}
+.titleg h1 {
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+.titleg h1:after {
+  content: "";
+  width: 100px;
+  height: 3px;
+  background-color: #d03a63;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+.titleg h1 span {
+  background: linear-gradient(45deg, #ff2a8a, #0250bc);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.containerg {
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-auto-rows: 400px;
+  grid-gap: 8px;
+  grid-auto-flow: dense;
+}
+@media (max-width: 699px) {
+  .containerg {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 499px) {
+  .containerg {
+    grid-template-columns: 1fr;
+  }
+}
+.containerg figure {
+  display: block;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.containerg figure figcaption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.65);
+  padding: 0.1rem 0.1rem;
+}
+.containerg figure figcaption span {
+  color: #fff;
+  display: block;
+}
+.containerg figure figcaption span.img-title {
+  font-size: 1.0rem;
+  font-weight: 700;
+  margin-bottom: 0.2rem;
+}
+@media (min-width: 376px) {
+  .containerg figure figcaption span.img-title {
+    font-size: 1.5rem;
+  }
+}
+.containerg figure figcaption span.img-description {
+  font-size: 0.9rem;
+}
+@media (min-width: 376px) {
+  .containerg figure figcaption span.img-description {
+    font-size: 1rem;
+  }
+}
+.containerg img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+@media (min-width: 799px) {
+  .horizontal {
+    grid-column: span 2;
+  }
+}
+
+@media (min-width: 799px) {
+  .vertical {
+    grid-row: span 2;
+  }
+}
+
+@media (min-width: 799px) {
+  .big {
+    grid-column: span 2;
+    grid-row: span 2;
+  }
+}
+
+/*갤러리*/
+
+
+.lg-react-element{
+	
+}
+
+.clean-btn{
+	
+	font-size: 12px !important;
+	
+}
+
